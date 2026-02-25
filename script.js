@@ -28,5 +28,6 @@ function advanceScene() {
         document.getElementById("endmessage").textContent = " There is nowhere left to go. You sit down among the roots and listen to Genesis' story.";
         document.getElementById("caption").textContent = "";
         sceneNumber++;    
+        advance.disabled = true;
     }
 }
