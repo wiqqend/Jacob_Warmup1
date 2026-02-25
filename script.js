@@ -20,10 +20,6 @@ function advanceScene() {
         document.getElementById("sceneimage").src = "scene3.jpg";
         document.getElementById("caption").textContent = "Scene 3";
         sceneNumber++;
-    } else if (sceneNumber === 3) {
-        document.getElementById("sceneimage").src = "scene4.jpg";
-        document.getElementById("caption").textContent = "Scene 4";
-        sceneNumber++;
     } else if (sceneNumber === 4) {
         document.getElementById("sceneimage").src = "end.jpg";
         document.getElementById("caption").textContent = "The End!";
