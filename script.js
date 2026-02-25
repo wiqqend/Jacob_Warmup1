@@ -12,5 +12,27 @@ let sceneNumber = 1;
 
 function advanceScene() {
 
-    if (sceneNumber)
+    if (sceneNumber === 1) {
+        document.getElementById("sceneimage").src = "scene2.jpg";
+        document.getElementById("caption").textContent = "Scene 2";
+        sceneNumber++;
+    } else if (sceneNumber === 2) {
+        document.getElementById("sceneimage").src = "scene3.jpg";
+        document.getElementById("caption").textContent = "Scene 3";
+        sceneNumber++;
+    } else if (sceneNumber === 3) {
+        document.getElementById("sceneimage").src = "scene4.jpg";
+        document.getElementById("caption").textContent = "Scene 4";
+        sceneNumber++;
+    } else if (sceneNumber === 4) {
+        document.getElementById("sceneimage").src = "end.jpg";
+        document.getElementById("caption").textContent = "The End!";
+        sceneNumber++;
+        document.getElementById("advanceButton").disabled = true;
+    }
+
+
+
+
+
 }
