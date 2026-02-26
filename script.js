@@ -17,8 +17,7 @@ function advanceScene() {
         sceneNumber++;
     } else if (sceneNumber === 4) {
 
-        document.getElementById("caption").textContent = "";
-        sceneNumber++;    
+        document.getElementById("caption").textContent = "";  
         advance.disabled = true;
         document.getElementById("endmessage").classList.remove("hidden");
     }
