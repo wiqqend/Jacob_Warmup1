@@ -25,7 +25,7 @@ function advanceScene() {
         document.getElementById("caption").textContent = " You have reached the heart of the forest. It is very quiet here. Jiya sees a treasure in the center of the grove.";
         sceneNumber++;
     } else if (sceneNumber === 4) {
-        document.getElementById("endmessage").textContent = " There is nowhere left to go. You sit down among the roots and listen to Genesis' story.";
+        endMessage.classList.remove("hidden"); 
         document.getElementById("caption").textContent = "";
         sceneNumber++;    
         advance.disabled = true;
