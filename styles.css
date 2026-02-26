@@ -44,8 +44,8 @@ h1 {
 #sceneimage {
   display: block;
   width: 100%;
-  max-width: 680px;
-  height: 400px;
+  max-width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(74, 124, 89, 0.3);
