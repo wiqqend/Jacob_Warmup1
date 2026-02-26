@@ -118,3 +118,39 @@ h1 {
 .hidden {
   display: none;
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+    
+    h1 {
+        font-size: clamp(1.4rem, 5vw, 2.2rem);
+        margin-bottom: 20px;
+    }
+    
+    #sceneimage {
+        height: auto;
+    }
+    
+    #caption {
+        font-size: 0.9rem;
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 16px;
+    }
+    
+    #advance {
+        padding: 10px 30px;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+    }
+    
+    #endmessage {
+        font-size: 1rem;
+        max-width: 100%;
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+    }   
